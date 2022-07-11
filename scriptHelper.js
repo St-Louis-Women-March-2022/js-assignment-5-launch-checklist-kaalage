@@ -40,9 +40,9 @@ function formSubmission (document, list, pilot, copilot, fuelLevel, cargoLevel) 
     }
     
     else if (validateInput(fuelLevel) === 'Not a Number' || validateInput(cargoLevel) === 'Not a Number') {
-        alert('Only numbers are acceptable');
+        alert('Only numbers are acceptable for fuel level and cargo mass');
     } else if (validateInput(pilot)==='Is a Number'|| validateInput(copilot) ==='Is a Number') {
-        alert('Only letters are acceptable');
+        alert('Only letters are acceptable for name and copilot name');
     } 
     else {
     
